@@ -12,7 +12,8 @@ module.exports = {
     {
         contentBase: './dist',
         open: true,
-        host: '0.0.0.0' // = serveur local --> permet de lancer le serveur et rendre accessible dev local
+        host: '0.0.0.0', // = serveur local --> permet de lancer le serveur et rendre accessible dev local
+        useLocalIp: true
     },
     entry: path.resolve(__dirname, '../src/index.js'),
     output:
